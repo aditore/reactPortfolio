@@ -1,13 +1,25 @@
 //import logo from './logo.svg';
 import './App.css';
-import NavbarTop from './components/navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {
+  NavbarTop,
+  Home
+} from './components';
+
+
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavbarTop />
-    </div>
-  );
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutMe" /*element={<AboutMe />}*/ />
+        <Route path="/myWork" /*element={<MyWork />}*/ />
+        <Route path="/contact" /*element={<Contact />}*/ />
+      </Routes>
+    </Router>
+  )
 }
 
 export default App;

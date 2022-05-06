@@ -1,21 +1,27 @@
 import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+// import { Nav } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
 
 function NavbarTop(props) {
     return (
-        <Navbar className='navbar'>
-            <Nav fill variant="tabs" style={{ width: "100%" }}>
-                <Nav.Item>
-                    <Nav.Link className='nav-link'>About Me</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link className='nav-link'>My Work</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link className='nav-link'>Contact</Nav.Link>
-                </Nav.Item>
-            </Nav>
-        </Navbar>
+        <div className='topNav'>
+            <nav className='navbar'>
+                <div className='container'>             
+                    <NavLink className='navbar-brand' to='/'>Anthony Ditore</NavLink>
+                    <ul>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' to='/aboutMe'>About Me</NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' to='/myWork'>My Work</NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' to='/contact'>Contact</NavLink>
+                        </li>                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
     );
 }
 
