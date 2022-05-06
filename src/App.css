@@ -1,11 +1,12 @@
 /* navbar.js */
 
 /* header.js */
-
-/* home.js */
 .nameHeader {
   font-size: 100px;
+  text-align: center;
 }
+
+/* home.js */
 
 .twinsImage {
   margin: 20px;
@@ -27,6 +28,44 @@
 /* contact.js */
 
 /* footer.js */
+.footerInline {
+  align-content: center;
+}
 
+.footerUl {
+  font-size: 90px;
+  flex-direction: row;
+}
+
+.footerLi {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.toolTip {
+  position: relative;
+  display: inline-block;
+}
+
+.toolTip .toolTipText {
+  color: white;
+  font-size: 10px;
+  visibility: hidden;
+  width: fit-content;
+  background-color: black;
+  text-align: center;
+  border-radius: 10%;
+  padding: 5px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  right: 50%;
+  margin-left: -30px;
+}
+
+.toolTip:hover .toolTipText {
+  visibility: visible;
+}
 
 /* ------- MEDIA ------- */

@@ -3,7 +3,6 @@ import React from "react";
 function Home() {
     return(
         <div className="homePage px-2">
-            <h1 className="nameHeader">Anthony Ditore</h1>
             <img className="twinsImage" alt="twins" src="./images/twins.jpg"></img> 
             <section className="homePage col-9">
                 <p>Hello! My name is Anthony Ditore! Welcome to my website!</p>
