@@ -3,7 +3,12 @@ import React from 'react';
 function Footer() {
     return (
         <footer className='footerInline'>
-            <nav className="navbar navbar-expand-lg justify-content-center">
+            <nav className="bottomOfPage navbar navbar-expand-lg justify-content-between">
+                <div class="resume px-2">
+                    <h5>Resume</h5>
+                    <a target="_blank" href="./assets/images/anthonyGeneralResume.pdf" class="resumeBtn btn btn-primary">General</a>
+                    <a target="_blank" href="./assets/images/anthonyResume.pdf" class="resumeBtn btn btn-primary">Technical</a>
+                </div>
                 <ul className="footerUl navbar-nav">
                     <li className='footerLi'>
                         <div className="toolTip">

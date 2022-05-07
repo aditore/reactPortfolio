@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Quiz-Hub",
+        "description": "Working with a team, we developed an interactive trivia app that allows users to log in and take or create quizzes!",
+        "image": "./images/quizHubGif.gif",
+        "alt": "GIF of Quiz-Hub",
+        "deployed": "https://quiz-hub-2022.herokuapp.com/",
+        "repo": "https://github.com/aditore/quiz-hub"
+    },
+    {
+        "title": "eCommerceBackend",
+        "description": "This is the product of a backend sequelize practice! Very cool stuff!",
+        "image": "./images/eCommerceBackend.png",
+        "alt": "Image of Postman for eCommerce",
+        "deployed": "https://github.com/aditore/eCommerceBackend",
+        "repo": "https://github.com/aditore/eCommerceBackend"
+    }
+]

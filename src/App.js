@@ -5,7 +5,9 @@ import {
   NavbarTop,
   Home,
   Header,
-  Footer
+  Footer,
+  AboutMePage,
+  MyWork
 } from './components';
 
 
@@ -15,12 +17,14 @@ function App() {
     <Router>
       <NavbarTop />
       <Header />
+      <main>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutMe" /*element={<AboutMe />}*/ />
-        <Route path="/myWork" /*element={<MyWork />}*/ />
+        <Route path="/aboutMe" element={<AboutMePage />} />
+        <Route path="/myWork" element={<MyWork />} />
         <Route path="/contact" /*element={<Contact />}*/ />
       </Routes>
+      </main>
       <Footer />
     </Router>
   )
