@@ -67,13 +67,19 @@ main {
 }
 /* contact.js */
 
+.formControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* footer.js */
 .footerInline {
   text-align: center;
   bottom: 0;
   width: 100%;
 }
-
 
 .footerUl {
   font-size: 90px;

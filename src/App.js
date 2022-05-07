@@ -7,7 +7,8 @@ import {
   Header,
   Footer,
   AboutMePage,
-  MyWork
+  MyWork,
+  ContactForm
 } from './components';
 
 
@@ -22,7 +23,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutMe" element={<AboutMePage />} />
         <Route path="/myWork" element={<MyWork />} />
-        <Route path="/contact" /*element={<Contact />}*/ />
+        <Route path="/contact" element={<ContactForm />} />
+        <Route path="/resume" /*element={<Resume />}*/ />
       </Routes>
       </main>
       <Footer />

@@ -11,10 +11,13 @@ function NavbarTop(props) {
                         <NavLink className='nav-link' to='/aboutMe'>About Me</NavLink>
                     </li>
                     <li className='nav-item px-2'>
-                        <NavLink className='nav-link' to='/myWork'>My Work</NavLink>
+                        <NavLink className='nav-link' to='/myWork'>Portfolio</NavLink>
                     </li>
                     <li className='nav-item px-2'>
                         <NavLink className='nav-link' to='/contact'>Contact</NavLink>
+                    </li>
+                    <li className='nav-item px-2'>
+                        <NavLink className='nav-link' to='/resume'>Resume</NavLink>
                     </li>                        
                 </ul>
         </nav>
