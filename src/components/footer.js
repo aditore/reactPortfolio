@@ -19,7 +19,7 @@ function Footer() {
                     </li>
                     <li className='footerLi'>
                         <div className="toolTip">
-                            <a className="bi bi-phone" href='/'>
+                            <a className="bi bi-phone" href='/reactPortfolio'>
                                 <span className="toolTipText">Click to reach me by my mobile number!</span>    
                             </a>
                         </div>
