@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
     return(
@@ -6,8 +7,8 @@ function Home() {
             <img className="twinsImage" alt="twins" src="./images/jpg/twins.jpg"></img> 
             <section className="homePage col-9">
                 <p>Hello! My name is Anthony Ditore! Welcome to my website!</p>
-                <p>Please read <a href="/aboutMe">about me</a> and take a gander at my <a href="/myWork">works</a>!</p>
-                <p>Feel free to <a href="/contact">contact me</a> if you have an opportunity or would like to collaborate!</p>
+                <p>Please read <Link to="/aboutMe">about me</Link> and take a gander at my <Link to="/myWork">works</Link>!</p>
+                <p>Feel free to <Link to="/contact">contact me</Link> if you have an opportunity or would like to collaborate!</p>
             </section>
         </div>
     )
