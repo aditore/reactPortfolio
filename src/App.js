@@ -21,11 +21,11 @@ function App() {
       <Header />
       <main>
       <Routes>
-        <Route path="/reactPortfolio" element={<Home />} />
-        <Route path="/aboutMe" element={<AboutMePage />} />
-        <Route path="/myWork" element={<MyWork />} />
-        <Route path="/contact" element={<ContactForm />} />
-        <Route path="/resume" element={<ResumePage />} />
+        <Route path="/reactPortfolio/" element={<Home />} />
+        <Route path="/reactPortfolio/aboutMe" element={<AboutMePage />} />
+        <Route path="/reactPortfolio/myWork" element={<MyWork />} />
+        <Route path="/reactPortfolio/contact" element={<ContactForm />} />
+        <Route path="/reactPortfolio/resume" element={<ResumePage />} />
       </Routes>
       </main>
       <Footer />
