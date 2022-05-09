@@ -37,27 +37,38 @@ main {
   text-align: center;
   justify-content: center;
 }
-/* myWork.js */
-.myWorkSection {
+/* myWork.js, resume.js */
+.myWorkSection, .resumeSection {
   text-align: center;
 }
 
-.projectDiv {
+.resumeSection {
+  display: flex;
+  align-items: center;
+}
+
+.projectDiv, .resumeDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
 }
 
-.projectCardDiv {
-  border-style: solid;
+.resumeDiv {
+  flex-direction: row;
+  justify-content: center;
 }
 
-.projectCard {
+.projectCardDiv, .resumeCardDiv {
+  border-style: solid;
+  min-height: 500px;
+}
+
+.projectCard, .resumeCard {
   padding: 30px;
 }
 
-.linkContainer {
+.linkContainer, .resumeLink {
   padding: 20px;
 }
 

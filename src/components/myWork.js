@@ -6,11 +6,11 @@ function MyWork(props) {
     return (
         <section className="myWorkSection">
             <div className="projectDiv">
-                    {
-                        projects.map((project, index) =>
-                            <ProjectCard key={index} {...project} />
-                        )
-                    }
+                {
+                    projects.map((project, index) =>
+                        <ProjectCard key={index} {...project} />
+                    )
+                }
             </div>
         </section>
     )

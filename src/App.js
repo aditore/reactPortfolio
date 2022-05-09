@@ -8,7 +8,8 @@ import {
   Footer,
   AboutMePage,
   MyWork,
-  ContactForm
+  ContactForm,
+  ResumePage
 } from './components';
 
 
@@ -24,7 +25,7 @@ function App() {
         <Route path="/aboutMe" element={<AboutMePage />} />
         <Route path="/myWork" element={<MyWork />} />
         <Route path="/contact" element={<ContactForm />} />
-        <Route path="/resume" /*element={<Resume />}*/ />
+        <Route path="/resume" element={<ResumePage />} />
       </Routes>
       </main>
       <Footer />

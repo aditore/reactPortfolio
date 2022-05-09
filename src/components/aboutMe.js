@@ -9,7 +9,7 @@ function AboutMePage(props) {
                 <p>I hope you enjoy my portfolio website and reach out to ask me questions in the future!</p>
                 <p>Feel free to click the links at the bottom of the page to get into <a href="/contact">contact with me</a>!</p>
             </section>
-            <img className='siblingsImage px-2' alt="siblings" src='./images/snow_sibling.png'></img>
+            <img className='siblingsImage px-2' alt="siblings" src='./images/png/snow_sibling.png'></img>
         </div>
     )
 }
