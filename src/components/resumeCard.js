@@ -2,7 +2,7 @@ import React from "react";
 
 function ResumeCard(props) {
     return(
-        <div className="resumeCardDiv col-4">
+        <div className="resumeCardDiv col-lg-4 col-xs-12">
             <div className="resumeCard">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>

@@ -5,7 +5,7 @@ import technicalPdf from '../constants/pdf/technicalResume.pdf';
 function Footer() {
     return (
         <footer className='footerInline'>
-            <nav className="bottomOfPage navbar navbar-expand-lg justify-content-between">
+            <nav className="bottomOfPage navbar navbar-expand-lg navbarTop">
                 <div className="resume px-2">
                     <h5>Resume</h5>
                     <a target="_blank" rel="noreferrer" href={generalPdf} className="resumeBtn btn btn-primary">General</a>

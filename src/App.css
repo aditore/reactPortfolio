@@ -1,9 +1,16 @@
 /* main */
-
 main {
   min-height: calc(100vh - 367px);
 }
+
 /* navbar.js */
+.navbarTop {
+  justify-content: space-between;
+}
+
+.navbarLink {
+  flex-direction: row;
+}
 
 /* header.js */
 .nameHeader {
@@ -45,6 +52,8 @@ main {
 .resumeSection {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .projectDiv, .resumeDiv {
@@ -76,6 +85,7 @@ main {
   border-style: solid;
   height: 200px;
 }
+
 /* contact.js */
 
 .formControl {
@@ -133,3 +143,34 @@ main {
 }
 
 /* ------- MEDIA ------- */
+
+@media screen and (max-width: 980px) {
+  .navbarTop {
+    justify-content: center;
+  }
+  
+  .navbarHead {
+    display: none;
+  }
+
+  .navbarLink {
+    align-items: center;
+  }
+
+  .resume {
+    display: none;
+  }
+
+  .resumeSection {
+    padding-top: 0;
+    flex-direction: column;
+  }
+
+  .resumeDiv {
+    flex-direction: column;
+  }
+
+  .aboutMe {
+    flex-direction: column;
+  }
+}
