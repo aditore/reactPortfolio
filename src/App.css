@@ -175,4 +175,13 @@ main {
   .aboutMe {
     flex-direction: column;
   }
+
+  .footerUl {
+    font-size: 50px;
+  }
+
+  .nameHeader {
+    font-size: 50px;
+  }
+
 }
