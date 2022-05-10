@@ -54,6 +54,7 @@ main {
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .projectDiv, .resumeDiv {
@@ -163,6 +164,7 @@ main {
 
   .resumeSection {
     padding-top: 0;
+    padding-bottom: 0;
     flex-direction: column;
   }
 
