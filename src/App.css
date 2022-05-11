@@ -145,7 +145,7 @@ main {
 
 /* ------- MEDIA ------- */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
   .navbarTop {
     justify-content: center;
   }
@@ -183,9 +183,6 @@ main {
   .nameHeader {
     font-size: 50px;
   }
-}
-
-@media screen and (max-width: 768px) {
   
   .projectCard {
     padding-left: 50px;
@@ -193,7 +190,7 @@ main {
   }
 
   .cardImage {
-    width: 100%;
+    width: auto;
     height: auto;
   }
 }
