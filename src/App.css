@@ -189,6 +189,11 @@ main {
     padding-right: 0;
   }
 
+  .siblingsImage, .twinsImage{
+    width: auto;
+    max-width: 100%;
+  }
+
   .cardImage {
     width: auto;
     max-width: 100%;
