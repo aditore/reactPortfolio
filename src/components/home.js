@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Home() {
     return(
         <div className="homePage px-2">
-            <img className="twinsImage" alt="twins" src="./images/jpg/twins.jpg"></img> 
+            <img className="twinsImage" alt="twins" src={process.env.PUBLIC_URL + "/images/jpg/twins.jpg"}></img> 
             <section className="homePage col-9">
                 <p>Hello! My name is Anthony Ditore! Welcome to my website!</p>
                 <p>Please read <Link to="/aboutMe">about me</Link> and take a gander at my <Link to="/myWork">works</Link>!</p>
