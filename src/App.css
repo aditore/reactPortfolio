@@ -188,11 +188,12 @@ main {
 @media screen and (max-width: 768px) {
   
   .projectCard {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .cardImage {
     width: 100%;
+    height: auto;
   }
 }
