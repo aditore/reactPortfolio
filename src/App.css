@@ -184,4 +184,12 @@ main {
     font-size: 50px;
   }
 
+  .projectCard {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .cardImage {
+    width: 100%;
+  }
 }
