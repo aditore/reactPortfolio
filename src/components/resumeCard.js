@@ -7,7 +7,7 @@ function ResumeCard(props) {
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
                 <br></br>
-                <img src={props.image} alt={props.alt} className="cardImage card-image" />
+                <img src={process.env.PUBLIC_URL + props.image} alt={props.alt} className="cardImage card-image" />
                 <div className="resumeLink">
                     <a className="btn btn-danger" href={props.pdf} target="_blank" rel="noreferrer">{props.title}</a>
                 </div>
