@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../constants/projects.json"
+import { projData } from "../constants/projects"
 import ProjectCard from "./myWorkCard";
 
 function MyWork(props) {
@@ -7,7 +7,7 @@ function MyWork(props) {
         <section className="myWorkSection">
             <div className="projectDiv">
                 {
-                    projects.map((project, index) =>
+                    projData.map((project, index) =>
                         <ProjectCard key={index} {...project} />
                     )
                 }

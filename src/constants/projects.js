@@ -1,4 +1,4 @@
-[
+export const projData = [
     {
         "title": "Quiz-Hub",
         "description": "Working with a team, we developed an interactive trivia app that allows users to log in and take or create quizzes!",
