@@ -1,5 +1,13 @@
 export const projData = [
     {
+        "title": "Game-Hub",
+        "description": "Working with a team, we developed a website that allows a user to add games to a website for themselves or other people to gain knowledge and insight on games that are brought into the database.",
+        "image": "/images/png/homeBeforeLogin.png",
+        "alt": "Game-Hub image",
+        "deployed": "https://game-hub-2022.herokuapp.com/",
+        "repo": "https://github.com/aditore/gameHub"
+    },
+    {
         "title": "Quiz-Hub",
         "description": "Working with a team, we developed an interactive trivia app that allows users to log in and take or create quizzes!",
         "image": "/images/gif/quizHubGif.gif",
