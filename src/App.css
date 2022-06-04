@@ -1,6 +1,12 @@
+/* body */
+body {
+  background-color: lightseagreen;
+}
+
 /* main */
 main {
   min-height: calc(100vh - 367px);
+  background-color: lightgreen;
 }
 
 /* navbar.js */
@@ -10,6 +16,18 @@ main {
 
 .navbarLink {
   flex-direction: row;
+}
+
+.nav-link, .navbarHead {
+  color: black;
+}
+
+.nav-link:hover, .navbarHead:hover {
+  color: white;
+}
+
+.activePage {
+  color: red;
 }
 
 /* header.js */
