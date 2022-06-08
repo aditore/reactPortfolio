@@ -75,10 +75,32 @@ main {
   padding-bottom: 100px;
 }
 
-.projectDiv, .resumeDiv {
+.workCardMui {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  border: none;
+  height: 450px;
+}
+
+.workCardMuiImage {
+  height: 220px;
+  width: 100%;
+  border: solid;
+  border-color: lightseagreen;
+}
+
+.workCardMuiText {
+  
+}
+
+.projectDiv, .resumeDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   padding: 10px;
 }
 
@@ -87,12 +109,12 @@ main {
   justify-content: center;
 }
 
-.projectCardDiv, .resumeCardDiv {
+.resumeCardDiv {
   border-style: solid;
   min-height: 500px;
 }
 
-.projectCard, .resumeCard {
+.resumeCard {
   padding: 30px;
 }
 
