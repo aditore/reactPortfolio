@@ -3,14 +3,12 @@
         "title": "General Resume",
         "description": "This is my basic resume if you would like to know general things about me.",
         "image": "/images/png/general.png",
-        "alt": "General resume",
-        "pdf": "../constants/pdf/generalResume.pdf"
+        "alt": "General resume"
     },
     {
         "title": "Technical Resume",
         "description": "This is my more dynamic resume targeting tech positions.",
         "image": "/images/png/technical.png",
-        "alt": "Technical resume",
-        "pdf": "../constants/pdf/technicalResume.pdf"
+        "alt": "Technical resume"
     }
 ]

@@ -1,4 +1,6 @@
 import React from "react";
+import generalPdf from '../constants/pdf/generalResume.pdf';
+import technicalPdf from '../constants/pdf/technicalResume.pdf';
 
 function ResumeCard(props) {
     return(
@@ -9,7 +11,11 @@ function ResumeCard(props) {
                 <br></br>
                 <img src={process.env.PUBLIC_URL + props.image} alt={props.alt} className="cardImage card-image" />
                 <div className="resumeLink">
-                    <a className="btn btn-danger" href={props.pdf} target="_blank" rel="noreferrer">{props.title}</a>
+                    {props.title === "General Resume" ? (
+                        <a className="btn btn-danger" rel="noreferrer" href={generalPdf} target="_blank">{props.title}</a>
+                    ) : (
+                        <a className="btn btn-danger" rel="noreferrer" href={technicalPdf} target="_blank">{props.title}</a>
+                    )}
                 </div>
             </div>
         </div>
