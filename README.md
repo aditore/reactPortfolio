@@ -31,9 +31,6 @@ To install, clone or fork the repo and run `npm start` in your terminal!
 
 NPM | Notes
 --- | ---
-@testing-library/jest-dom | Testing
-@testing-library/react | Testing
-@testing-library/user-event | Testing
 bootstrap | Styling
 gh-pages | Deploy
 react | Create application
@@ -41,7 +38,6 @@ react-bootstrap | Style
 react-dom | Component use
 react-router-dom | Router use
 react-scripts | Create application
-web-vitals | Test
 
 ## Usage
 
