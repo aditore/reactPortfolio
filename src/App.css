@@ -128,12 +128,24 @@ main {
 }
 
 /* contact.js */
+form {
+  border: solid;
+  padding: 10px;
+}
+
+.formHead {
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
 
 .formControl {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 /* footer.js */
@@ -202,6 +214,9 @@ main {
     display: none;
   }
 
+  .resumeTitle {
+    padding: 10px;
+  }
   .resumeSection {
     padding-top: 0;
     padding-bottom: 0;
@@ -214,6 +229,7 @@ main {
 
   .aboutMe {
     flex-direction: column;
+    padding: 10px;
   }
 
   .footerUl {

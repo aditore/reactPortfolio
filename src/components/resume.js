@@ -6,7 +6,7 @@ function ResumePage(props) {
     return (
         <section className="resumeSection">
             <div className="skills col-lg-3 col-xs-12">
-                <h3>My Proficiencies</h3>
+                <h3 className="resumeTitle">My Proficiencies</h3>
                 <ul className="list-group">
                     <li className="list-group-item">JavaScript</li>
                     <li className="list-group-item">HTML5</li>

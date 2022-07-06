@@ -3,7 +3,7 @@ import React from 'react';
 function ContactForm() {
     return(
         <div className='formControl'>
-            <h3 className='m-3'>Send me a message if you would like to get in touch!</h3>
+            <h3 className='m-3 col-9 formHead'>Send me a message if you would like to get in touch!</h3>
             <form className='col-9'>
                 <div className="form-group">
                   <label htmlFor="inputName">Name</label>
