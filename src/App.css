@@ -67,6 +67,10 @@ main {
   text-align: center;
 }
 
+.myWorkSection {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .resumeSection {
   display: flex;
   align-items: center;
